@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MissionController;
+use App\Http\Controllers\DomainesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::middleware([
@@ -26,3 +29,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get("/contact", [ContactController::class, "index"]);
+Route::get("/mission", [MissionController::class, "index"]);
+Route::get("/domaines", [DomainesController::class, "index"]);
