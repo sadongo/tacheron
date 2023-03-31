@@ -51,7 +51,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -73,7 +73,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-i2cwotkdo one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon2.png') }}"
                                                             class="scale-with-grid">
@@ -95,7 +95,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-roesrz04z one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon3.png') }}"
                                                             class="scale-with-grid">
@@ -117,7 +117,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -139,7 +139,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -161,7 +161,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -183,7 +183,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -205,7 +205,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -227,7 +227,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/inscription">
+                                                <a class href="/register">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -276,7 +276,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-i2cwotkdo one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/plomberie">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon2.png') }}"
                                                             class="scale-with-grid">
@@ -298,7 +298,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-roesrz04z one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/peinture">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon3.png') }}"
                                                             class="scale-with-grid">
@@ -320,7 +320,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/energie">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -342,7 +342,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/vidange">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -364,7 +364,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/pressing">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -386,7 +386,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/menuiserie">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -408,7 +408,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/maconnerie">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">
@@ -430,7 +430,7 @@
                                     <div class="mcb-wrap-inner">
                                         <div class="column mcb-column mcb-item-6yexo2r5h one column_icon_box">
                                             <div class="icon_box icon_position_top no_border">
-                                                <a class href="/">
+                                                <a class href="/tollier">
                                                     <div class="image_wrapper"><img
                                                             src="{{ asset('assets/images/loans3-icon1.png') }}"
                                                             class="scale-with-grid">

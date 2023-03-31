@@ -34,7 +34,13 @@
                         <hr class="no_line" style="margin:0 auto 50px">
                         <div class="column_attr clearfix align_center">
                             <div id="contactWrapper">
-                                <form id="contactform">
+                                @if(Session::has('message_sent'))
+<div class="alert alert-succrss" role="alert">
+    {{Session::get('message_sent')}}
+</div>
+                                @endif
+                                <form id="contactform" method="GET" action="/mail">
+                                    @csrf
                                     <!-- One Second (1/2) Column -->
                                     <div class="column one-second">
                                         <input placeholder="Votre nom" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false">
@@ -50,7 +56,8 @@
                                         <textarea placeholder="Message" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
                                     </div>
                                     <div class="column one">
-                                        <input type="button" value="Envoyer un message" id="submit_mg" onclick="return check_values();">
+                                        <button type="submit" class="btn btn-primary float-right">Envoyer le message</button>
+                                        {{-- <input type="button" value="Envoyer un message" id="submit_mg" onclick="return check_values();"> --}}
                                     </div>
                                 </form>
                             </div>
