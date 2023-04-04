@@ -13,6 +13,55 @@
 
     <link rel='stylesheet' href="{{ asset('assets/css/style_demo.css') }}">
 </head>
+<div id="Header_wrapper">
+    <header id="Header">
+
+        <div id="Top_bar">
+            <div class="container">
+                <div class="column one">
+                    <div class="top_bar_left clearfix">
+                        <div class="logo">
+                            <a id="logo"
+                                data-height="60" data-padding="15"><img class="logo-main scale-with-grid"
+                                    src="{{ asset('assets/images/loans3-logo-retina.png') }}"
+                                    data-retina="{{ asset('assets/images/loans3-logo-retina.png') }}"
+                                    data-height="44" data-no-retina></a>
+                        </div>
+                        <div class="menu_wrapper">
+                            <nav id="menu">
+                                <ul id="menu-menu" class="menu menu-main">
+                                    <li>
+                                        <a href="/"><span>Accueil</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/domaines"><span>Domaines</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="/mission"><span>Notre mission</span></a>
+                                    </li>
+                                    {{-- <li>
+                                        <a href="/tacherons"><span>Espace tâcheron</span></a>
+
+                                                <ul class="sub-menu mfn-megamenu mfn-megamenu-4">
+                                                    <li> <a href="/ancienstacherons"><span>Connexion tâcheron</span></a> </li>
+                                                    <li> <a href="/inscriptiontacheron"><span>Inscripton tâcheron</span></a> </li>
+                                                </ul>
+                                    </li> --}}
+                                    <li>
+                                        <a href="/contact"><span>Contact</span></a>
+                                    </li>
+
+                                </ul>
+                            </nav><a class="responsive-menu-toggle" href="#"><i
+                                    class="icon-menu-fine"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
 
 <body>
     <div class="section mcb-section mcb-section-8b3rtt6vo" id="contact"

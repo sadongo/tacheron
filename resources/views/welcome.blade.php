@@ -29,129 +29,13 @@
         </style>
     </head>
     <body class="home page-template-default page color-custom style-simple button-default layout-full-width one-page if-zoom if-border-hide no-content-padding header-simple minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-link-color footer-copy-center mobile-tb-center mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky tr-footer">
-        {{-- <div id="Header_wrapper">
-            <header id="Header">
-
-                <div id="Top_bar">
-                    <div class="container">
-                        <div class="column one">
-                            <div class="top_bar_left clearfix">
-                                <div class="logo">
-                                    <a id="logo" href="index-loans3.html" title="BeLoans 3 - Betheme"
-                                        data-height="60" data-padding="15"><img class="logo-main scale-with-grid"
-                                            src="{{ asset('assets/images/loans3-logo-retina.png') }}"
-                                            data-retina="{{ asset('assets/images/loans3-logo-retina.png') }}"
-                                            data-height="44" data-no-retina></a>
-                                </div>
-                                <div class="menu_wrapper">
-                                    <nav id="menu">
-                                        <ul id="menu-menu" class="menu menu-main">
-                                            <li>
-                                                <a href="/"><span>Accueil</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="/domaines"><span>Domaines</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="/mission"><span>Notre mission</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="/tacherons"><span>Espace tâcheron</span></a>
-
-														<ul class="sub-menu mfn-megamenu mfn-megamenu-4">
-															<li> <a href="/ancienstacherons"><span>Connexion tâcheron</span></a> </li>
-															<li> <a href="/inscriptiontacheron"><span>Inscripton tâcheron</span></a> </li>
-														</ul>
-                                            </li>
-                                            <li>
-                                                <a href="/contact"><span>Contact</span></a>
-                                            </li>
-
-                                        </ul>
-                                    </nav><a class="responsive-menu-toggle" href="#"><i
-                                            class="icon-menu-fine"></i></a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-        </div> --}}
-        {{-- <div >
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
-                    @auth
-                        <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Connexion</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Inscription</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-        </div>
-
-        <x-guest-layout>
-            <x-authentication-card>
-                <x-slot name="logo">
-                    <x-authentication-card-logo />
-                </x-slot>
-
-                <x-validation-errors class="mb-4" />
-
-                @if (session('status'))
-                    <div class="mb-4 font-medium text-sm text-green-600">
-                        {{ session('status') }}
-                    </div>
-                @endif
-
-                <form method="POST" action="{{ route('login') }}">
-                    @csrf
-
-                    <div>
-                        <x-label for="email" value="{{ __('Email') }}" />
-                        <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
-                    </div>
-
-                    <div class="mt-4">
-                        <x-label for="password" value="{{ __('Mot de passe') }}" />
-                        <x-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
-                    </div>
-
-                    <div class="block mt-4">
-                        <label for="remember_me" class="flex items-center">
-                            <x-checkbox id="remember_me" name="remember" />
-                            <span class="ml-2 text-sm text-gray-600">{{ __('Se souvenir du mot de passe') }}</span>
-                        </label>
-                    </div>
-
-                    <div class="text-align:text;">
-                        <x-button class="ml-4">
-                            {{ __('Connexion') }}
-                        </x-button>
-
-                        @if (Route::has('password.request'))
-                            <a href="{{ route('password.request') }}">
-                                {{ __('Mot de passe oublié ?') }}
-                            </a>
-                        @endif
-                    </div>
-
-
-                </form>
-            </x-authentication-card>
-        </x-guest-layout> --}}
-
 
         <footer id="Footer" class="clearfix">
             <div class="footer_copy">
                 <div class="container">
                     <div class="column one">
                         <div class="copyright">
-                            &copy; 2023 Le bon tâcheron by <a target="_blank" rel="nofollow"
+                            &copy; 2023 Le Bon Tâcheron by <a target="_blank" rel="nofollow"
                                 href="https://1.envato.market/9ZxXY">E-consulting</a>
                         </div>
                     </div>
