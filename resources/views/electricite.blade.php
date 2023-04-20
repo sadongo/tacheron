@@ -20,51 +20,55 @@
 </head>
 <body>
 
-<h1>Notation test</h1>
-<i class="star">&#9733;</i>
-<i class="star">&#9733;</i>
-<i class="star">&#9733;</i>
-<i class="star">&#9733;</i>
-<i class="star">&#9733;</i>
+<h1 style="color:brown">Notation test</h1>
+<i class="star" data-note="1">&#9733;</i>
+<i class="star" data-note="2">&#9733;</i>
+<i class="star" data-note="3">&#9733;</i>
+<i class="star" data-note="4">&#9733;</i>
+<i class="star" data-note="5">&#9733;</i>
+<i class="note">Note:</i>
 
 <script>
     const stars = document.querySelectorAll('.star');
+    let check = false;
     stars.forEach(star => {
-star.addEventListener('mouseover', selectStars);
-star.addEventListener('mouseleave', unselectStars);
-star.addEventListener('click', activeSelect);
+        star.addEventListener('mouseover', selectStars);
+        star.addEventListener('mouseleave', unselectStars);
+        star.addEventListener('click', activeSelect);
 
-    });
-
-function selectStars(e) {
-    const data = e.target;
-    const etoiles=priviousSiblings(data);
-    console.log(etoiles);
-    etoiles.forEach(etoiles => {
-        etoile.classList.add('hover');
     })
 
-}
+    function selectStars(e) {
+        const data = e.target;
+        const etoiles = priviousSiblings(data);
+        if(!check) {
+            etoiles.forEach(etoile => {
+                etoile.classList.add('hover');
+            })
+        }
+    }
 
 function unselectStars(e) {
     const data = e.target;
-    const etoiles=priviousSiblings(data);
-    console.log(etoiles);
-    etoiles.forEach(etoiles => {
+    const etoiles = priviousSiblings(data);
+if(!check){
+    etoiles.forEach(etoile => {
         etoile.classList.remove('hover');
     })
 }
+}
 
 function activeSelect(e) {
-
+check = true;
+document.querySelector('.note').innerHTML+=''+e.target.dataset.note
 }
 
 function priviousSiblings(data) {
     let values = [data];
-    while (data = data.priviousSiblings){
-if (data.nodeName === 'I'){
+    while (data = data.priviousSiblings) {
+ if (data.nodeName === 'I') {
     values.push(data);
-}
+ }
      }
    return values;
 }
@@ -98,8 +102,8 @@ if (data.nodeName === 'I'){
             <!-- More people... -->
           </ul>
         </div>
-      </div>
- --}}
+      </div> --}}
+
 
 
 

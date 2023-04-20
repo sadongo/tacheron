@@ -5,6 +5,7 @@ use App\Http\Controllers\MissionController;
 use App\Http\Controllers\DomainesController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\ElectriciteController;
+use App\Http\Controllers\InscriptacheronController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +37,8 @@ Route::get("/contact", [ContactController::class, "index"]);
 Route::get("/mission", [MissionController::class, "index"]);
 Route::get("/domaines", [DomainesController::class, "index"]);
 Route::get("/electricite", [ElectriciteController::class, "index"]);
+Route::get("/inscriptachron", [InscriptacheronController::class, "index"]);
+
 
 
 
