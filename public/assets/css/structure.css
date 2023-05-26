@@ -1057,7 +1057,7 @@ body:not(.template-slider) #Header_wrapper.bg-fixed {
 	position: relative;
 }
 body:not(.template-slider) #Header {
-	min-height: 250px;
+	min-height: 160px;
 }
 .header-transparent .header_placeholder, .header-empty .header_placeholder {
 	height: 0 !important;
@@ -1161,7 +1161,7 @@ body.minimalist-header.header-below:not(.template-slider) #Header {
 #Top_bar {
 	position: absolute;
 	left: 0;
-	top: 61px;
+	top: 35px;
 	width: 100%;
 	z-index: 30;
 }

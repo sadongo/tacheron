@@ -1,11 +1,10 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+@extends('layouts.header')
+
+@section('title')
+  Electricité
+@endsection
+@section('content')
     <style>
         .star
         {
@@ -17,8 +16,6 @@
         }
 
     </style>
-</head>
-<body>
 
 <h1 style="color:brown">Notation test</h1>
 <i class="star" data-note="1">&#9733;</i>
@@ -74,9 +71,8 @@ function priviousSiblings(data) {
 }
 
 </script>
-
-</body>
-</html>
+ <h2>SADONGO Sonia</h2>
+ @endsection
 
 
 

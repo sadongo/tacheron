@@ -5,7 +5,9 @@ use App\Http\Controllers\MissionController;
 use App\Http\Controllers\DomainesController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\ElectriciteController;
-use App\Http\Controllers\InscriptacheronController;
+use App\Http\Controllers\FormtacheronController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\EspaceTacheronController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,7 +39,11 @@ Route::get("/contact", [ContactController::class, "index"]);
 Route::get("/mission", [MissionController::class, "index"]);
 Route::get("/domaines", [DomainesController::class, "index"]);
 Route::get("/electricite", [ElectriciteController::class, "index"]);
-Route::get("/inscriptachron", [InscriptacheronController::class, "index"]);
+Route::get("/formtacheron", [formtacheronController::class, "index"]);
+Route::get("/home", [HomeController::class, "index"]);
+Route::get("/espacetacheron", [EspaceTacheronController::class, "index"]);
+
+
 
 
 

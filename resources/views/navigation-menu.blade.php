@@ -15,18 +15,13 @@
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Tableau de bord') }}
                     </x-nav-link>
-                    <x-nav-link href="/" :active="request()->routeIs('dashboard')">
+                    <x-nav-link href="/home" :active="request()->routeIs('dashboard')">
                         {{ __('Accueil') }}
                     </x-nav-link>
-                    <x-nav-link href="/domaines" :active="request()->routeIs('dashboard')">
-                        {{ __('Domaines') }}
+                    <x-nav-link href="/formtacheron" :active="request()->routeIs('dashboard')">
+                        {{ __('Mon entreprise') }}
                     </x-nav-link>
-                    <x-nav-link href="/mission" :active="request()->routeIs('dashboard')">
-                        {{ __('Mission') }}
-                    </x-nav-link>
-                    <x-nav-link href="/contact" :active="request()->routeIs('dashboard')">
-                        {{ __('contact') }}
-                    </x-nav-link>
+
                 </div>
 
 
