@@ -5,6 +5,7 @@ use App\Http\Controllers\MissionController;
 use App\Http\Controllers\DomainesController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\ElectriciteController;
+use App\Http\Controllers\EntrepriseController;
 use App\Http\Controllers\FormtacheronController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\EspaceTacheronController;
@@ -42,6 +43,7 @@ Route::get("/electricite", [ElectriciteController::class, "index"]);
 Route::get("/formtacheron", [formtacheronController::class, "index"]);
 Route::get("/home", [HomeController::class, "index"]);
 Route::get("/espacetacheron", [EspaceTacheronController::class, "index"]);
+Route::resource('/entreprises', EntrepriseController::class);
 
 
 
